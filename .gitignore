@@ -6,3 +6,8 @@
 *.pyc
 F_145_test
 F_438_test
+sync.sh
+recordings
+data/sdr_transcriber
+config/sdr_transcriber.dbs.bak
+.vscode/settings.json
