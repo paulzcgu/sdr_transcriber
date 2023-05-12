@@ -1,0 +1,24 @@
+{
+
+    "HOST_MQTT" : "192.168.2.1",
+    "HOST_PI"   : "192.168.2.2",
+
+    "SSH_ID" : "ubuntu",
+    "SSH_PW" : "dragon",
+
+    "TOPIC_TASKS" : "SDR/station_1/whisper_remote_tasks",
+    "TOPIC_MAIN" : "SDR/station_1/main",
+
+    "N_SCP_WORKERS" : 2,
+    "N_WHISPER_WORKERS" : 1,
+    "N_WHISPER_THREAD" : 4,
+
+    "LOCAL_REC_PATH" : "/Users/zcgu/sdr_transcriber/data/recordings",
+    "DB_PATH" : "/Users/zcgu/sdr_transcriber/data/sdr_transcriber",
+    "WHISPER_PATH" : "/Users/zcgu/whispercpp/whisper.cpp/main",
+
+    "MODEL_AT_USE" : "MODEL_BASE",
+    "MODEL_TINY" : "/Users/zcgu/whispercpp/whisper.cpp/models/ggml-tiny.en.bin",
+    "MODEL_BASE" : "/Users/zcgu/whispercpp/whisper.cpp/models/ggml-base.en.bin",
+    "MODEL_SMALL" : "/Users/zcgu/whispercpp/whisper.cpp/models/ggml-small.en.bin"
+}
